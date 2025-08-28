@@ -1,0 +1,131 @@
+/* 📱 Mobile responsiveness */
+@media (max-width: 1024px) {
+  /* Tablet & small laptop adjustments */
+  header #main {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+  }
+  .Hero-section {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* General tablet/mobile */
+  #main .box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #main .box .input,
+  #main .box .btn1,
+  #main .box .btn2 {
+    width: 100%;   /* Full width search bar */
+    max-width: 100%;
+  }
+
+  .section1 {
+    flex-direction: column;
+    font-size: 0.7rem;
+  }
+
+  .hero-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-box1,
+  .hero-box2,
+  .hero-box3 {
+    width: 100%;
+  }
+
+  .deals .deal-list,
+  .deals1 .deal-list1 {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+  }
+  .deal-box.small img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .banner-content {
+    flex-direction: column;
+    height: auto;
+  }
+  .banner-content .left,
+  .banner-content .right {
+    width: 100%;
+  }
+  .banner-content .box {
+    width: 100%;
+    height: auto;
+  }
+
+  .recomend .items {
+    max-width: 100%;
+    gap: 10px;
+  }
+  .items .item {
+    flex: 0 0 calc(50% - 10px); /* 2 items per row */
+  }
+
+  .servic-box {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .servic-box .box {
+    width: 45%;
+  }
+
+  .sipliy .flag-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 flags per row */
+    gap: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Small phones */
+  header #main {
+    padding: 0 10px;
+  }
+  #main .logo {
+    height: 25px;
+  }
+  .hero-box2 h1 {
+    font-size: 1.2rem;
+  }
+  .hero-box2 h2 {
+    font-size: 1.5rem;
+  }
+  .items .item {
+    flex: 0 0 100%; /* 1 item per row */
+  }
+  .servic-box .box {
+    width: 100%;
+  }
+  .sipliy h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
