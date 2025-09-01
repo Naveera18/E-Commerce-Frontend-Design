@@ -1348,3 +1348,168 @@ width: 30px;
     font-size: 0.6rem;
     /* margin-left: 5px; */
 }
+
+@media (max-width: 468px) {
+  /* General mobile adjustments */
+  body {
+    padding: 10px;
+  }
+
+  /* Header adjustments */
+  header #main {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #main .logo {
+    margin: 0 0 10px 0;
+  }
+
+  #main .box {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  #main .box .input {
+    max-width: 100%;
+    border-right: 1px solid #0D6EFD;
+    border-radius: 4px;
+  }
+
+  #main .box .btn1, #main .box .btn2 {
+    width: 100%;
+    border-right: 1px solid #0D6EFD;
+    border-radius: 4px;
+  }
+
+  #main .box .icons {
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  .section1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section-box1, .section-box2 {
+    margin: 0;
+    padding: 5px;
+  }
+
+  /* Hero Section adjustments */
+  .Hero-section .hero-box {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .hero-box1 {
+    width: 100%;
+  }
+
+  .hero-box2 {
+    width: 100%;
+    background-size: contain;
+    padding: 20px;
+    height: 200px;
+    background-position: center;
+  }
+
+  .hero-box2 h1, .hero-box2 h2 {
+    font-size: 1rem;
+  }
+
+  .hero-box3 {
+    width: 100%;
+  }
+
+  /* Deals and Offers adjustments */
+  .deals .deal-list, .deals1 .deal-list1 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  
+  .deal-box.big, .deal-box.small, .deal-box1.big1, .deal-box1.big2 {
+    flex: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .deal-box.small img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .small-boxes-container {
+    width: 100%;
+  }
+  
+  .small-boxes-row {
+    flex-direction: column;
+  }
+
+  /* Recommendation adjustments */
+  .recomend h1, .service h1, .sipliy h1 {
+    margin-left: 10px;
+  }
+  
+  .recomend .items {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+  }
+  
+  .items .item {
+    flex: none;
+    width: 100%;
+  }
+
+  /* Service & Regional adjustments */
+  .servic-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servic-box .box {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .sipliy .flag-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* Footer adjustments */
+  .newsletter-container {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .input-group, .subscribe-btn {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .footer-bottom p {
+    margin-bottom: 10px;
+  }
+}
